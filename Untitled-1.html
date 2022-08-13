@@ -9,14 +9,23 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="bi"> 
-        <h1>binaire</h1>
-        <p><input id="chbi" type="text" placeholder="Nombre décimale"></p>
-        <p><button id="btn_di_bi" onclick=dibi()>Convertir en binaire</button><button  onclick=bidi()>Convertir en décimale</button></p>
-        <p>résultat</p>
-        <p id="resubi"></p>
-
-
+    <h1>Convertisseur</h1>
+    <div id="main">
+        <div id="bi"> 
+            <h1>binaire</h1>
+            <p><input id="chbi" type="text" placeholder="Nombre "></p>
+            <p><button  onclick=dibi()>Convertir en binaire</button><button  onclick=bidi()>Convertir en décimale</button></p>
+            <p>résultat</p>
+            <p id="resubi"></p>
+        </div>
+        <div id="he"> 
+            <h1>Hexadécimale</h1>
+            <p><input id="chhe" type="text" placeholder="Nombre"></p>
+            <p><button  onclick=dihe()>Convertir en hexa</button><button  onclick=hedi()>Convertir en décimale</button></p>
+            <p>résultat</p>
+            <p id="resuhe"></p>
+        </div>
     </div>
+
 </body>
 </html>
